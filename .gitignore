@@ -1,0 +1,4 @@
+.gemini/
+brain/
+node_modules/
+.env
