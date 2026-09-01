@@ -1261,17 +1261,8 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 10px;
 }
-.contact-map-container {
-    margin-top: 40px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: var(--shadow);
-    line-height: 0;
-}
-.contact-map-container iframe {
-    width: 100%;
-    border: none;
-}
+
+
 
 /* ==========================================================================
    Admin Settings & Messages Layout Styles

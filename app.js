@@ -1515,7 +1515,6 @@ function handleContactSubmit(e) {
 function renderContactPage() {
     const topBar = document.getElementById("topInfoBar");
     const infoContainer = document.getElementById("contactInfoContainer");
-    const mapContainer = document.getElementById("contactMapContainer");
     const footerContacts = document.getElementById("footerContacts");
     
     const s = contactSettings;
@@ -1588,14 +1587,7 @@ function renderContactPage() {
         infoContainer.innerHTML = cardsHtml;
     }
     
-    if (mapContainer) {
-        if (s.showMap !== false && s.mapEmbed) {
-            mapContainer.innerHTML = s.mapEmbed;
-            mapContainer.style.display = "block";
-        } else {
-            mapContainer.style.display = "none";
-        }
-    }
+
     
     if (footerContacts) {
         footerContacts.innerHTML = `
