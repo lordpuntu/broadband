@@ -213,20 +213,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.admin-btn {
-    background-color: var(--primary-color);
-    color: var(--white) !important;
-    padding: 8px 15px;
-    border-radius: 4px;
-}
 
-.admin-btn:hover {
-    background-color: var(--primary-hover);
-}
 
-.admin-btn:after {
-    display: none;
-}
+
+
+
 
 .menu-toggle {
     display: none;
@@ -391,19 +382,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* About Us Section Page styling */
-.about-hero, .packages-hero, .recharge-hero, .admin-hero {
+.about-hero, .packages-hero, .recharge-hero {
     background: linear-gradient(135deg, rgba(3,23,34,0.92) 0%, rgba(20,53,74,0.92) 100%);
     color: var(--white);
     padding: 60px 0;
     text-align: center;
 }
 
-.about-hero h2, .packages-hero h2, .recharge-hero h2, .admin-hero h2 {
+.about-hero h2, .packages-hero h2, .recharge-hero h2 h2 {
     color: var(--white);
     font-size: 36px;
 }
 
-.about-hero p, .packages-hero p, .recharge-hero p, .admin-hero p {
+.about-hero p, .packages-hero p, .recharge-hero p p {
     color: #94a3b8;
     font-size: 15px;
 }
